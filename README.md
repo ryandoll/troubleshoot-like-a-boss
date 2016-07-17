@@ -1,19 +1,29 @@
 # Troubleshoot Like A Boss
 
 ## Key Points
-- Have a browser you know in and out: [Chrome Browser](https://www.google.com/chrome/)
+- Have a (good) browser you know in and out - [Chrome Browser](https://www.google.com/chrome/)
   - Developer Tools
     - [Network Resources](https://developers.google.com/web/tools/chrome-devtools/profile/network-performance/resource-loading?utm_source=dcc)
       - Download as HAR File - upload to http://www.softwareishard.com/har/viewer/
+      - Demo
   - Extensions
     - [Clear Session](https://chrome.google.com/webstore/detail/clear-session/maejjihldgmkjlfmgpgoebepjchengka)
+    - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
 - Have a DMZ Brower for testing: [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
   - ```open -a Google\ Chrome\ Canary --args --disable-web-security -–allow-file-access-from-files```
     - Helpful with CORS issues for local development
-- Get comfortable with a good text editor.
+- Know your [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- Get comfortable with a good text editor
   - I recommend Atom or Sublime
+- Get comfortable with the Terminal
+- Know your version control tools inside and out
+  - [Git](https://git-scm.com/book/en/v2)
+  - [SVN](http://svnbook.red-bean.com/)
 - [Charles Proxy](https://www.charlesproxy.com/)
-- [Postman](https://www.getpostman.com/)
+  - Demo
+- APIs
+  - [Postman](https://www.getpostman.com/)
+    - Demo?
 - Emulation
   - [IE Virtual Machine](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
   - [iOS Simulator](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html)
