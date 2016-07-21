@@ -11,18 +11,21 @@ Nobody's code is perfect, and all browsers don't run that code the exact same wa
   - Extensions
     - [Clear Session](https://chrome.google.com/webstore/detail/clear-session/maejjihldgmkjlfmgpgoebepjchengka)
     - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
-- Have a DMZ Brower for testing: [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
+- Have a DMZ Browser for testing: [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
   - ```open -a Google\ Chrome\ Canary --args --disable-web-security -–allow-file-access-from-files```
     - Helpful with CORS issues for local development
 - Know your [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - Get comfortable with a good text editor
-  - I recommend Atom or Sublime
+  - Who cares what the editor is...find the one that YOU are most comfortable with!
 - Get comfortable with the Terminal
 - Know your version control tools inside and out
   - [Git](https://git-scm.com/book/en/v2)
   - [SVN](http://svnbook.red-bean.com/)
 - [Charles Proxy](https://www.charlesproxy.com/)
+  - Looking at your browser traffic is easily handled through Chrome Developer Tools, but Charles can show requests from other applications like the iOS Simulator.
+  - Most sites are using SSL, so you need to [configure Charles for SSL proxying](https://www.charlesproxy.com/documentation/using-charles/ssl-certificates/)!
   - Demo
+    - Let's change the content of github.com!
 - APIs
   - [Postman](https://www.getpostman.com/)
     - Demo?
