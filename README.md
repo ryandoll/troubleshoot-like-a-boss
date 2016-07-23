@@ -20,12 +20,6 @@ Nobody's code is perfect, and all browsers don't run that code the exact same wa
   - ```open -a Google\ Chrome\ Canary --args --disable-web-security -–allow-file-access-from-files```
     - Helpful with CORS issues for local development
 - Know your [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-- Know your IDE/Editor
-  - Who cares what the editor is...find the one that YOU are most comfortable with!
-- Get comfortable with the Terminal
-- Know your version control tools inside and out
-  - [Git](https://git-scm.com/book/en/v2)
-  - [SVN](http://svnbook.red-bean.com/)
 - Proxy all the things!
   - [Fiddler](http://www.telerik.com/fiddler)
   - [Charles Proxy](https://www.charlesproxy.com/)
@@ -33,9 +27,15 @@ Nobody's code is perfect, and all browsers don't run that code the exact same wa
     - Most sites are using SSL, so you need to [configure Charles for SSL proxying](https://www.charlesproxy.com/documentation/using-charles/ssl-certificates/)!
     - Demo
       - Let's change the content of github.com!
-- APIs
+- Know your IDE/Editor
+  - Who cares what the editor is...find the one that YOU are most comfortable with!
+- Know your version control tools inside and out
+  - [Git](https://git-scm.com/book/en/v2)
+  - [SVN](http://svnbook.red-bean.com/)
+- Learn to love the command line
+- Use Postman for API Testing
   - [Postman](https://www.getpostman.com/)
-    - Demo?
+    - Demo if time
 - Emulation
   - [IE Virtual Machine](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
   - [iOS Simulator](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html)
