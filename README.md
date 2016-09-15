@@ -22,6 +22,7 @@ Nobody's code is perfect, and all browsers don't run that code the exact same wa
 - Know your [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - Proxy all the things!
   - [Fiddler](http://www.telerik.com/fiddler)
+    - Debugging with Fiddler by Eric Lawrence (http://fiddlerbook.com/book/)
   - [Charles Proxy](https://www.charlesproxy.com/)
     - Looking at your browser traffic is easily handled through Chrome Developer Tools, but Charles can show requests from other applications like the iOS Simulator.
     - Most sites are using SSL, so you need to [configure Charles for SSL proxying](https://www.charlesproxy.com/documentation/using-charles/ssl-certificates/)!
